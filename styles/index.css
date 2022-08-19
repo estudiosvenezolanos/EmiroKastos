@@ -1,0 +1,160 @@
+
+/* banner_image */
+.banner_image{
+	background: url('../images/p3.png') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: red;
+	font-size: 550%;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 65px;
+	margin-top: 100px;
+}
+
+/*
+.banner_content h1 span{
+	color: #fb2274;
+}*/
+
+
+/* About */
+.about,
+.shortstories,
+.contactus,
+.ourteam{
+	text-align: center;
+	padding: 5% 10%;
+}
+.about p a{
+	color: #8d8d8d;
+	text-decoration: none;
+	text-decoration-line: none;
+	}
+	
+#btn_colaborate a:hover{
+    background-color: black;
+}
+
+/* Shortstories */
+.shortstories{
+	background: #f5f5f5;
+	margin-bottom: 30px;;
+}
+
+.diff_shortstories {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff_shortstories .diff_shortstories_item {
+    width: 30%;
+}
+.diff_shortstories .diff_shortstories_item p{
+    text-align: center;
+}
+.diff_shortstories .diff_shortstories_item h3 {
+    color: red;
+    margin-bottom: 15px;
+}
+.diff_shortstories .diff_shortstories_item img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 25px;
+    filter:grayscale(30);
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.diff_shortstories_item img:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+/* our team */
+.ourteam{
+	background: #f5f5f5;
+}
+
+.ourteam_wrapper{
+	display: flex;
+flex-wrap: wrap;
+align-content: center;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+	flex-direction: wrap;
+	justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 15px;
+}
+.ourteam_wrapper .team-2.team{
+	margin-bottom: 15px;
+}
+
+
+.ourteam_wrapper .team_members{
+	width: 95%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	
+}
+
+.ourteam_wrapper .team_members img{
+	
+	width: 30%;
+	height: auto;
+	transition: all 0.5s ease;
+    filter: grayscale(4);
+    margin-bottom: 20px;
+	
+}
+
+.ourteam_wrapper .team_members:hover img{
+	transform: scale(1.1);
+}
+.ourteam_wrapper .team_members h2{
+	scroll-margin: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    color:red;
+}
+.ourteam_wrapper .team_members p{
+text-align: justify;
+}
+
+.team-3{
+	margin-bottom: 15px;
+    width: 100%;
+    color:red;
+}
+.team-3 ul{
+	color: #8d8d8d;
+}
+
+/* Contact us */
+.contactus p{
+    text-align: center;
+}
+

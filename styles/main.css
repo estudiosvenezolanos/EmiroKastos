@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@100&display=swap');
+@import url("nav.css");
+@import url("footer.css");
+/*root*/
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #8d8d8d;
+	text-align: justify;
+}
+
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid red;
+    color: red;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+.main_container{
+	position: relative;
+}
+
+
